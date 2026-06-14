@@ -3,14 +3,12 @@ import time
 import requests
 from threading import Thread
 
-# ===== НАСТРОЙКИ (ЗАМЕНИ НА СВОИ) =====
-TOKEN = "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
+TOKEN = "ТВОЙ_ТОКЕН"
 ADMIN_ID = 123456789
-WALLET = "TВаш_адрес_USDT"
-TRONGRID_API_KEY = "твой_ключ_от_trongrid"
-FILE_URL = "https://ссылка_на_товар"
+WALLET = "TВаш_адрес"
+TRONGRID_API_KEY = "твой_ключ"
+FILE_URL = "https://ссылка"
 PRICE = 10
-# ======================================
 
 bot = telebot.TeleBot(TOKEN)
 processed_txs = set()
