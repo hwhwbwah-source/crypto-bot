@@ -10,8 +10,8 @@ TRONGRID_API_KEY = "fefb216e-ce6a-4658-a940-f5deb90a1d5c"
 
 # ТОВАРЫ (меняй цены и ссылки)
 products = {
-    "1": {"price": 5, "file": "https://canva.link/h2qinj1vvqfhmqf"},
-    "2": {"price": 5, "file": "https://canva.link/khthwn88h4xmaud"},
+    "1": {"price": 5, "file": "https://canva.link/h2qinjlvvqfhmqf"},
+    "2": {"price": 5, "file": "https://canva.link/khtwhn88h4xmaud"},
 }
 
 bot = telebot.TeleBot(TOKEN)
